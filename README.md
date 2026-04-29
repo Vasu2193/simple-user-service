@@ -15,3 +15,7 @@ http://localhost:8080/users
 docker build -t user-service .
 # Run Container
 docker run -p 8080:8080 user-service
+
+# Deploy to Minikube
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml

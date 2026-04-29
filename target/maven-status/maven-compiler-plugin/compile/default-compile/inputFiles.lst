@@ -1,5 +1,5 @@
-/home/lenovo/Downloads/3Tier Arcitecture/simple-user-service/src/main/java/com/example/userservice/controller/UserController.java
-/home/lenovo/Downloads/3Tier Arcitecture/simple-user-service/src/main/java/com/example/userservice/UserServiceApplication.java
-/home/lenovo/Downloads/3Tier Arcitecture/simple-user-service/src/main/java/com/example/userservice/service/UserService.java
-/home/lenovo/Downloads/3Tier Arcitecture/simple-user-service/src/main/java/com/example/App.java
-/home/lenovo/Downloads/3Tier Arcitecture/simple-user-service/src/main/java/com/example/userservice/model/User.java
+/home/lenovo/Downloads/Projects/simple-user-service/src/main/java/com/example/App.java
+/home/lenovo/Downloads/Projects/simple-user-service/src/main/java/com/example/userservice/service/UserService.java
+/home/lenovo/Downloads/Projects/simple-user-service/src/main/java/com/example/userservice/UserServiceApplication.java
+/home/lenovo/Downloads/Projects/simple-user-service/src/main/java/com/example/userservice/controller/UserController.java
+/home/lenovo/Downloads/Projects/simple-user-service/src/main/java/com/example/userservice/model/User.java

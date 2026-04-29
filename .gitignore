@@ -1,0 +1,36 @@
+# Maven
+target/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+
+# Environment files
+.env
+
+# Docker
+*.tar
+
+# Kubernetes temp files
+*.tmp
+target/
+.idea/
+.vscode/
+*.class

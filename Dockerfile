@@ -20,12 +20,20 @@
 
 # FROM eclipse-temurin:17-jre-alpine
 
-FROM gcr.io/distroless/java17
+# FROM gcr.io/distroless/java17
 
-WORKDIR /app
+# WORKDIR /app
 
-ARG JAR_FILE=target/*.jar
+# ARG JAR_FILE=target/*.jar
 
-COPY ${JAR_FILE} app.jar
+# COPY ${JAR_FILE} app.jar
 
-ENTRYPOINT ["java","-jar","/app/app.jar"]
+# ENTRYPOINT ["java","-jar","/app/app.jar"]
+
+FROM gcr.io/distroless/java17-debian11
+
+COPY target/simple-user-service-1.0.jar app.jar
+
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","/app.jar"]
